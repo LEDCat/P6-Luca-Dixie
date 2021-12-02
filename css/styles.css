@@ -50,16 +50,27 @@ header h1, .container {
 /* 
     NAVIGATION
 */
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(43, 48, 58);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(43, 48, 58);
 }
 
 li {
     float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 li a {

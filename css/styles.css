@@ -1,0 +1,73 @@
+/* apply a natural box layout model to all elements */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Extra small devices (phones, less than 768px) */
+#tag {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 25px;
+	height: 25px;
+	background-color: #CC0000;
+}
+
+/* 
+    GENERAL
+*/
+
+
+/* 
+    TYPOGRAPHY
+*/
+
+
+/*
+    HEADER
+*/
+header h1, .container {
+    /* should stretch up to 800px wide and center on the screen */
+    width: 800px;
+}
+
+
+/* 
+    NAVIGATION
+*/
+
+
+/*
+    BUTTONS AND LINKS
+*/
+
+
+/*
+    MEDIA QUERIES
+*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    #tag { background-color: #FF9900; }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    #tag { background-color: #00AA88; }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    #tag { background-color: #674EA7; }
+    
+}

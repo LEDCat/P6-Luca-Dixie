@@ -41,14 +41,7 @@ body {
     IMAGES
 */
 
-img {
-    height: 300px;
-    width: 250px;
-    background-size: cover;
-}
-
 /* Tutorial on Modal Images by W3schools.com */
-
 #trigger {
     border-radius: 5px;
     cursor: pointer;
@@ -87,7 +80,7 @@ img {
     width: 80%;
     max-width: 700px;
     text-align: center;
-    color: #ccc;
+    color: rgb(238, 229, 233);
     padding: 10px 0;
     height: 150px;
 }

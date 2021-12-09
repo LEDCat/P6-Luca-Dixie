@@ -24,7 +24,7 @@ html {
 */
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 25px auto;
     padding: 20px;
 }
@@ -37,8 +37,10 @@ body {
     background-color: rgb(43, 48, 58);
 }
 
-#portfolio-img {
-
+.tall-img {
+    height: 300px;
+    width: 250px;
+    background-size: cover;
 }
 
 /* 

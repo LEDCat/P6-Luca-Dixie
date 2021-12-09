@@ -23,12 +23,22 @@ html {
     GENERAL
 */
 
+.container {
+    width: 800px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
 body {
     background-color: rgb(238, 229, 233);
 }
 
 #enter-page {
     background-color: rgb(43, 48, 58);
+}
+
+#portfolio-img {
+
 }
 
 /* 
@@ -41,15 +51,6 @@ h1, h2, h3, h4, h5, h6, li {
 body {
     font-family: 'Karla', sans-serif;
 }
-
-/*
-    HEADER
-*/
-header h1, .container {
-    /* should stretch up to 800px wide and center on the screen */
-    width: 800px;
-}
-
 
 /* 
     NAVIGATION

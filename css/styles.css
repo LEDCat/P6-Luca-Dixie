@@ -27,6 +27,25 @@ body {
     background-color: rgb(238, 229, 233);
 }
 
+#enter-page {
+    background-color: rgb(43, 48, 58);
+    display: grid;
+}
+
+button {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    color:rgb(238, 229, 233);
+    background-color: rgb(43, 48, 58);
+    border: 5px solid rgb(238, 229, 233);
+    padding: 5px;
+    margin: auto;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
 /* 
     TYPOGRAPHY
 */

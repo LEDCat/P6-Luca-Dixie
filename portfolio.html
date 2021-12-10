@@ -43,10 +43,15 @@
 
             <img src="images/FinalPoster(V2).png" 
             alt="Call to Action poster highlighting issues within the gaming industry and gaming communities." 
-            id="trigger" style="width: 250px; height: 300px;">
+            id="trigger" class="myImages" style="width:250px; height:300px;">
+
+            <img src="/images/SymbolformFinal.png" 
+            alt="Triceratops symbolform made for a project on emulating the National Zoo's symbolform system." 
+            id="trigger" class="myImages" style="width:250px; height:250px;">
 
             <!--
-                Tutorial on Modal Images by W3schools.com
+            Tutorial on Modal Images by W3schools.com
+            Improved code for multiple referenced from Snowmonkey on Stack Overflow
             -->
             <!-- The Modal -->
             <div id="myModal" class="modal">
@@ -72,6 +77,7 @@
             // Get the image and insert it inside the modal - use its "alt" text as a caption
             var img = document.getElementById('trigger');
             var modalImg = document.getElementById("img01");
+            var modalImg = document.getElementById("img02");
             var captionText = document.getElementById("caption");
             img.onclick = function(){
                 modal.style.display = "block";

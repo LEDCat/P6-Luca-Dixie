@@ -116,7 +116,7 @@ body {
 
 .close:hover,
 .close:focus {
-    color: #bbb;
+    color: rgb(124, 124, 124);
     text-decoration: none;
     cursor: pointer;
 }

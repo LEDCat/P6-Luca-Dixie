@@ -24,6 +24,7 @@ html {
 */
 
 .container {
+    display: flex;
     width: 900px;
     margin: 25px auto;
     padding: 20px;
@@ -40,6 +41,17 @@ body {
 /* 
     IMAGES
 */
+
+img {
+    margin: 30px;
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms--display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
 
 /* Tutorial on Modal Images by W3schools.com */
 #trigger {

@@ -25,7 +25,8 @@ html {
 
 .container {
     display: flex;
-    width: 900px;
+    flex-wrap: wrap;
+    max-width: 900px;
     margin: 25px auto;
     padding: 20px;
 }
@@ -43,7 +44,7 @@ body {
 */
 
 img {
-    margin: 30px;
+    margin: 35px;
     display: flex;
     -webkit-display: flex;
     -moz-display: flex;
@@ -134,7 +135,6 @@ img {
     cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;

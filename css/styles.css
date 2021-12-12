@@ -54,6 +54,18 @@ img {
     flex-wrap: nowrap;
 }
 
+figure {
+    display: inline-block;
+}
+
+#center-caption {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: rgb(214, 73, 51);
+    align-items: center;
+}
+
 /* Tutorial on Modal Images by W3schools.com */
 #trigger {
     border-radius: 5px;

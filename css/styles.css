@@ -67,7 +67,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-/* seperates picture and text on homepage so that they lie side by side */
+/* seperates divs so that they lie side by side */
 .section-one {
    float: left;
 }
@@ -75,6 +75,11 @@ body {
 .section-two {
     float: right;
     max-width: 600px;
+}
+
+#aboutpage {
+    display: flex;
+    flex-direction: column;
 }
 
 #aboutpage h1 {
@@ -86,7 +91,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
-    margin: auto;
+    margin: 25px auto;
     padding: 20px;
     position: absolute;
     top: 50%;

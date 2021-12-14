@@ -106,6 +106,14 @@ body {
     font-size: 20px;
 }
 
+#contactpage .section-two, p {
+    font-size: 20px;
+}
+
+#contactpage h1 {
+    color: rgb(214, 73, 51);
+}
+
 /* 
     IMAGES
 */

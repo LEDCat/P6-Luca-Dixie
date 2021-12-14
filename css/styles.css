@@ -29,6 +29,7 @@ html {
     max-width: 1000px;
     margin: 25px auto;
     padding: 20px;
+    width: 50%;
 }
 
 body {
@@ -284,11 +285,18 @@ button:hover {
 /*
     MEDIA QUERIES
 */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
     #tag { background-color: #FF9900; }
 
+    .container { width: 100%; }
 }
 
 /* Medium devices (desktops, 992px and up) */

@@ -35,10 +35,12 @@ body {
     background-color: rgb(229, 231, 238);
 }
 
+/* for index page specific elements*/
 #enterpage {
     background-color: rgb(43, 48, 58);
 }
 
+/* for home page specific elements*/
 #homepage {
     display: flex;
     flex-direction: column;
@@ -48,9 +50,9 @@ body {
     color: rgb(214, 73, 51);
 }
 
+/* seperates picture and text so that they lie side by side */
 .section-one {
    float: left;
-   align-items: flex-end;
 }
 
 .section-two {

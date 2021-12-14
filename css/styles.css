@@ -35,8 +35,26 @@ body {
     background-color: rgb(229, 231, 238);
 }
 
-#enter-page {
+#enterpage {
     background-color: rgb(43, 48, 58);
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+}
+
+#homepage h1, h2, h3 {
+    color: rgb(214, 73, 51);
+}
+
+.section-one {
+   float: left;
+   align-items: flex-end;
+}
+
+.section-two {
+    float: right;
 }
 
 /* 
@@ -52,6 +70,11 @@ img {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: nowrap;
+}
+
+#homepage img {
+    flex-direction: column;
+    border: 3px solid rgb(43, 48, 58);
 }
 
 figure {

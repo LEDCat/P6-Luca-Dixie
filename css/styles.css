@@ -36,7 +36,11 @@ body {
     background-color: rgb(229, 231, 238);
 }
 
-/* for index page specific elements*/
+/*
+    Tags below for specific page elements
+
+*/
+
 #enterpage {
     background-color: rgb(43, 48, 58);
 }
@@ -63,7 +67,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-/* seperates picture and text so that they lie side by side */
+/* seperates picture and text on homepage so that they lie side by side */
 .section-one {
    float: left;
 }
@@ -71,6 +75,23 @@ body {
 .section-two {
     float: right;
     max-width: 600px;
+}
+
+#aboutpage h1 {
+    padding: 30px;
+    color: rgb(214, 73, 51);
+}
+
+#aboutpage .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* 

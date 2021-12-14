@@ -61,6 +61,7 @@ body {
 
 .section-two {
     float: right;
+    max-width: 600px;
 }
 
 /* 
@@ -81,6 +82,7 @@ img {
 #homepage img {
     flex-direction: column;
     border: 3px solid rgb(43, 48, 58);
+    margin-top: 180px;
 }
 
 figure {
@@ -300,6 +302,10 @@ button:hover {
     #tag { background-color: #FF9900; }
 
     .container { width: 100%; }
+
+    #homepage img { margin-top: 25px;}
+
+    .section-two {max-width: 370px;}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -307,6 +313,9 @@ button:hover {
 
     #tag { background-color: #00AA88; }
 
+    #homepage img { margin-top: 15px; }
+
+    .section-two { max-width: 600px; }
 }
 
 /* Large devices (large desktops, 1200px and up) */

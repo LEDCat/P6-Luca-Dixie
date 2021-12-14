@@ -29,10 +29,6 @@ html {
     max-width: 1000px;
     margin: 25px auto;
     padding: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 body {
@@ -52,6 +48,18 @@ body {
 
 #homepage h1, h2, h3 {
     color: rgb(214, 73, 51);
+}
+
+#homepage .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* seperates picture and text so that they lie side by side */
